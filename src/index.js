@@ -9,18 +9,6 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 3000;
 
-// const whitelist = ['http://localhost:3000', 'http://localhost:8080'];
-
-// const withWhitelist = {
-//     origin: (origin, callback) => {
-//         if (whitelist.indexOf(origin) !== -1) {
-//             callback(null, true);
-//         } else {
-//             callback(new Error('Not allowed by CORS'));
-//         }
-//     }
-// };
-
 // Define a custom Morgan format with colors
 morgan.token('status-colored', (req, res) => {
     const status = res.statusCode;
