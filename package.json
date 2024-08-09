@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "description": "A project to explore the possibilities of chaining various AI technologies together to produce meaningful multimedia content.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest",
     "start": "node src/index.js",
